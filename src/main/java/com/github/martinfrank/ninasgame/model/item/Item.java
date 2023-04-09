@@ -1,16 +1,12 @@
-package com.github.martinfrank.games.rpgmodel.item;
+package com.github.martinfrank.ninasgame.model.item;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Item {
 
-    @JsonProperty
     private Long id;
 
-    @JsonProperty
     private String name;
 
-    @JsonProperty
     private double weight;
 
     public Item(){

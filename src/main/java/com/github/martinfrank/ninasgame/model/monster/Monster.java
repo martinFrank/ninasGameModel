@@ -1,13 +1,10 @@
-package com.github.martinfrank.games.rpgmodel.monster;
+package com.github.martinfrank.ninasgame.model.monster;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Monster {
 
-    @JsonProperty
     private Long id;
 
-    @JsonProperty
     private String name;
 
     public Monster(){

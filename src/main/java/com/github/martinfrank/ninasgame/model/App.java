@@ -1,4 +1,4 @@
-package com.github.martinfrank.games.rpgmodel;
+package com.github.martinfrank.ninasgame.model;
 
 /**
  * Hello world!

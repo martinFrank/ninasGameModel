@@ -1,16 +1,12 @@
-package com.github.martinfrank.games.rpgmodel.map;
+package com.github.martinfrank.ninasgame.model.map;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Map {
 
-    @JsonProperty
     private Long id;
 
-    @JsonProperty
     private int width;
 
-    @JsonProperty
     private int height;
 
 
