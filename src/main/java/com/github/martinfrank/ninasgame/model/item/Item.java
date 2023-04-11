@@ -12,7 +12,7 @@ public class Item {
     public Item(){
     }
 
-    public Item(Long id, String name, int weight) {
+    public Item(Long id, String name, double weight) {
         this.id = id;
         this.name = name;
         this.weight = weight;
