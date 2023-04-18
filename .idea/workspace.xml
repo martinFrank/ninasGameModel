@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d6860fe-969f-4e29-8549-fe65c238c349" name="Changes" comment="new: added tilestimage, tilesetdefinition, tiledmapdefinition">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/account/AccountDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/account/LoginDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +55,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.martinfrank.ninasgame.model.account" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\m.frank\IdeaProjects\privat\ninasGameModel\src\main\java\com\github\martinfrank\ninasgame\model\tiledmap" />
     </key>
@@ -80,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681811572008</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new: added tilestimage, tilesetdefinition, tiledmapdefinition">
+      <created>1681826276839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681826276839</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
