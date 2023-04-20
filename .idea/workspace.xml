@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6860fe-969f-4e29-8549-fe65c238c349" name="Changes" comment="new: added tilestimage, tilesetdefinition, tiledmapdefinition">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/account/AccountDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/account/LoginDetails.java" afterDir="false" />
+    <list default="true" id="3d6860fe-969f-4e29-8549-fe65c238c349" name="Changes" comment="new: added account">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/account/CreatePlayerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/item/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Archetype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Race.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Statistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/account/AccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/account/AccountDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/map/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/tiledmap/TiledmapDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/tiledmap/TilesetDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/file/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/tiledmap/TilesetImage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -92,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681826276839</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new: added account">
+      <created>1681831522448</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681831522448</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed data type" />
     <MESSAGE value="new: added tilestimage, tilesetdefinition, tiledmapdefinition" />
-    <option name="LAST_COMMIT_MESSAGE" value="new: added tilestimage, tilesetdefinition, tiledmapdefinition" />
+    <MESSAGE value="new: added account" />
+    <option name="LAST_COMMIT_MESSAGE" value="new: added account" />
   </component>
 </project>

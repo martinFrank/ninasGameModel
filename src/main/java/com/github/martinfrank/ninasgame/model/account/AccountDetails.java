@@ -11,15 +11,15 @@ public class AccountDetails {
     private LoginDetails loginDetails;
 
 
-    private List<Monster> playerCharacters = new ArrayList<>();
+    private List<Monster> players = new ArrayList<>();
 
     public AccountDetails() {
     }
 
-    public AccountDetails(LoginDetails loginDetails, String name, List<Monster> playerCharacters) {
-        this.loginDetails = loginDetails;
+    public AccountDetails(String name,LoginDetails loginDetails,  List<Monster> players) {
         this.name = name;
-        this.playerCharacters = playerCharacters;
+        this.loginDetails = loginDetails;
+        this.players = players;
     }
 
     public LoginDetails getLoginDetails() {
@@ -38,11 +38,11 @@ public class AccountDetails {
         this.name = name;
     }
 
-    public List<Monster> getPlayerCharacters() {
-        return playerCharacters;
+    public List<Monster> getPlayers() {
+        return players;
     }
 
-    public void setPlayerCharacters(List<Monster> playerCharacters) {
-        this.playerCharacters = playerCharacters;
+    public void setPlayers(List<Monster> playerCharacters) {
+        this.players = playerCharacters;
     }
 }
