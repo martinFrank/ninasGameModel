@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6860fe-969f-4e29-8549-fe65c238c349" name="Changes" comment="new: added account">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/account/CreatePlayerDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/item/Slot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Archetype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Clazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Statistics.java" afterDir="false" />
+    <list default="true" id="3d6860fe-969f-4e29-8549-fe65c238c349" name="Changes" comment="new: simplified files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/account/AccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/account/AccountDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/map/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/monster/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/tiledmap/TiledmapDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/tiledmap/TilesetDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/file/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/martinfrank/ninasgame/model/tiledmap/TilesetImage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681831522448</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new: simplified files">
+      <created>1681987591232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681987591232</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +124,7 @@
     <MESSAGE value="fixed data type" />
     <MESSAGE value="new: added tilestimage, tilesetdefinition, tiledmapdefinition" />
     <MESSAGE value="new: added account" />
-    <option name="LAST_COMMIT_MESSAGE" value="new: added account" />
+    <MESSAGE value="new: simplified files" />
+    <option name="LAST_COMMIT_MESSAGE" value="new: simplified files" />
   </component>
 </project>

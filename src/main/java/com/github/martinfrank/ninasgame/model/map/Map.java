@@ -13,6 +13,8 @@ public class Map {
 
     private String mapFilename;
 
+    private String queueName;
+
     private List<String> requiredFilenames = new ArrayList<>();
 
     private List<Item> items = new ArrayList<>();
@@ -23,9 +25,10 @@ public class Map {
     public Map() {
     }
 
-    public Map(String name, String mapFilename, List<String> requiredFilenames, List<Item> items, List<Monster> monsters) {
+    public Map(String name, String mapFilename, String queueName, List<String> requiredFilenames, List<Item> items, List<Monster> monsters) {
         this.name = name;
         this.mapFilename = mapFilename;
+        this.queueName = queueName;
         this.requiredFilenames = requiredFilenames;
         this.items = items;
         this.monsters = monsters;
@@ -45,6 +48,14 @@ public class Map {
 
     public void setMapFilename(String mapFilename) {
         this.mapFilename = mapFilename;
+    }
+
+    public String getQueueName() {
+        return queueName;
+    }
+
+    public void setQueueName(String queueName) {
+        this.queueName = queueName;
     }
 
     public List<String> getRequiredFilenames() {
